@@ -1,0 +1,204 @@
+body{
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+h1 {
+  font-family: "AR DELANEY", serif;
+  font-size: 60px;
+}
+h2 {
+  font-family: "The Times New Roman", serif;
+  font-size: 30px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  width: 79%;
+}
+
+li {
+  float: left;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: ##f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #ff0000;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.vertical-menu {
+  width: 275px;
+  height: 550px;
+  overflow-y: auto;
+  position: relative;
+  left: 1210px;
+  top: 150px;
+}
+
+.vertical-menu a {
+  background-color: #eee;
+  color: black;
+  display: block;
+  padding: 12px;
+  text-decoration: none;
+}
+
+.vertical-menu a:hover {
+  background-color: #ccc;
+}
+
+.vertical-menu a.active {
+  background-color: #ff0000;
+  color: white;
+}
+.container {
+  border: 2px solid #dedede;
+  background-color: #373737;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 10px 0;
+  width: 40%;
+  position: relative;
+  bottom: 500px;
+  left: 500px;
+}
+.darker {
+  border-color: #ccc;
+  background-color: #272727;
+}
+
+.container::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.container img {
+  float: left;
+  max-width: 60px;
+  width: 100%;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+.container img.right {
+  float: right;
+  margin-left: 20px;
+  margin-right:0;
+}
+
+.time-right {
+  float: right;
+  color: #aaa;
+}
+.time-left {
+  float: left;
+  color: #999;
+}
+h3{
+  position: relative;
+  bottom: 500px;
+  left: 500px;
+}
+input {
+  width: 40%;
+  position: relative;
+  bottom: 400px;
+  left: 400px;
+}
+textarea {
+  width: 30%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+  resize: none;
+  position: relative;
+  bottom: 500px;
+  left: 500px;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  position: relative;
+  bottom: 1400px;
+  Left: 600px;
+}
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+
+button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 22px;
+  color: white;
+}
+
+button:hover, a:hover {
+  opacity: 0.7;
+}
+h5{
+  position: relative;
+  bottom: 1410px;
+  left: 30px;
+}
+video {
+  height: auto;
+  position: relative;
+  bottom: 1400px;
+  Left: 30px;
+}
